@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="quiz-section" class="section">
+            <div id="question-section">
+                <h1 id="question-text">What is question?</h1>
+            </div>
+            <div id="options-section">
+                <div class="option">
+                    <input type="radio" name="options" class="options" id="a">
+                    <label for="a" id="a-text">Choice A</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" name="options" class="options" id="b">
+                    <label for="b" id="b-text">Choice B</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" name="options" class="options" id="c">
+                    <label for="c" id="c-text">Choice C</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" name="options" class="options" id="d">
+                    <label for="d" id="d-text">Choice D</label>
+                </div>
+
+            </div>
+            <div id="buttons-section">
+                <button type="button" id="btn-submit" class="btn">Submit</button>
+                <button type="button" id="btn-restart" class="btn d-none">Restart</button>
+            </div>
+        </div>
+
+        <div id="evaluation-section" class="section">
+            <h1>Evaluation</h1>
+
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
